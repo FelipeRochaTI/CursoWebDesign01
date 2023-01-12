@@ -1,0 +1,117 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.hero-content {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 150px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, 0.75);
+    display: inline-block;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin-right: 3%;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+
+}
+
+.hero nav a {
+    background-color: rgba(0, 0, 0, 0.329);
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.content-section h2 {
+    background-color: rgba(203, 204, 206, 0.37);
+    padding: 8px;
+    border-bottom: solid 2px rgb(197, 197, 197);
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.card-1,
+.card-2 {
+    margin-right: 2%;
+}
+
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: rgba(36, 35, 35, 0.884);
+    color: aliceblue;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+footer {
+    font-size: 12px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(17, 16, 16);
+    background-color: rgba(58, 58, 58, 0.651);
+    padding: 0.5%;
+
+}
