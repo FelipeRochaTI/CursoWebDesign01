@@ -1,0 +1,71 @@
+<!--doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pagina de login</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Felipe Rocha">
+    <meta name="description" content="lista de docs">
+    <meta name="keywors" content="html5, tecnologia, rocha">
+
+    <style>
+        .formLogin {
+            width: 250px;
+            margin: 50px auto 0px;
+            font-family: sans-serif;
+        }
+
+        .formLogin fieldset {
+            background-color: rgb(199, 197, 197);
+        }
+
+        #user,
+        #pass,
+        #btn {
+            display: inline-block;
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 2px;
+            font-size: 18px;
+        }
+
+        #user:focus,
+        #pass:focus {
+            border-color: aqua;
+            background-color: rgba(229, 255, 0, 0.096);
+        }
+
+        #btn {
+            margin-top: 10px;
+        }
+
+        #user {
+            margin-bottom: 12px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Primeira Página de Login!</h1>
+
+    <form action="#" method="post" class="formLogin">
+        <fieldset>
+
+            <legend>Login</legend>
+
+            <Label for="user">Digite seu Usuário</Label>
+            <input type="text" id="user" name="user" autofocus>
+
+            <label for="pass">Digite sua Senha</label>
+            <input type="password" id="pass" name="pass">
+
+            <input type="submit" id="btn" value="Logar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
